@@ -5,6 +5,8 @@ var router = require('./api')
 
 var app = express(); //creates express function variable 'app'
 
+require('./database');
+
 app.use('/', express.static('public')); //serves static files 'public' using .use method
 
 app.use('/api', router);

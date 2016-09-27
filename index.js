@@ -2,7 +2,7 @@
 'use strict';
 
 var express = require('express');
-var todos = require('../../mock/todos.json');
+var todos = require('/mock/todos.json');
 
 var router = express.Router(); //creates router method for all routes
 
